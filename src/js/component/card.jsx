@@ -2,7 +2,7 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
-function card() {
+function CustomCard({ title, description, imageSrc }) {
   return (
     <Card className="mx-4" style={{ width: "18rem" }}>
       <Card.Img
@@ -10,10 +10,9 @@ function card() {
         src="https://i.blogs.es/e32e91/trucos-enfocar-fotografia-paisaje-01/1366_2000.webp"
       />
       <Card.Body className="px-4 py-4 text-center">
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>{title}</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+         {description}
         </Card.Text>
         <Button variant="primary">Find Out More!</Button>
       </Card.Body>
@@ -23,7 +22,7 @@ function card() {
 
 
 
-export default card;
+export default CustomCard;
 
 
 
