@@ -14,7 +14,8 @@ function CustomCard({ title, description, imageSrc }) {
         <Card.Text>
          {description}
         </Card.Text>
-        <Button variant="primary">Find Out More!</Button>
+        <Button variant="primary"> {button}</Button>
+// completar botton
       </Card.Body>
     </Card>
   );
