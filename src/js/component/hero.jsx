@@ -3,7 +3,7 @@ import React from "react";
 function Hero() {
   return (
     <div className="p-4 mx-4 py-5 my-4 text-start gray-background rounded">
-      <h1 className="display-5 fw-bold text-start">A Warm Welcome</h1>
+      <h1 className="display-5 fw-bold text-start">Ey, Welcome!</h1>
       <div className="mx-auto text-start">
         <p className="lead mb-4 text-start">
           Quickly design and customize responsive mobile-first sites with
