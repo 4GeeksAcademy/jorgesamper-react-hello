@@ -4,11 +4,8 @@ import Card from "react-bootstrap/Card";
 
 function CustomCard({ title, description, imageSrc, button }) {
   return (
-    <Card className="mx-4" style={{ width: "18rem" }}>
-      <Card.Img
-        variant="top"
-        src="https://i.blogs.es/e32e91/trucos-enfocar-fotografia-paisaje-01/1366_2000.webp"
-      />
+    <Card className="mx-5" style={{ width: "18rem" }}>
+      <Card.Img variant="top" src={imageSrc}/>
       <Card.Body className="px-4 py-4 text-center">
         <Card.Title className="fw-bold">{title}</Card.Title>
         <Card.Text>{description}</Card.Text>
